@@ -57,6 +57,9 @@ function action(sender) {
         case 'x':
             thestring += 'x';
             break;
+        case '=':
+            thestring += '=';
+            break;
     };
 
     document.getElementById("thestring").innerHTML = thestring;
